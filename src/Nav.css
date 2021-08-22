@@ -1,0 +1,15 @@
+.Nav{
+    position: scroll;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    width: 80px;
+    position: scroll;
+    padding: 12px;
+    left: 20px;
+    object-fit: contain;
+}

@@ -1,0 +1,109 @@
+
+.row__title{
+    color: white;
+    font-size: larger;
+    padding: 10px;
+}
+.row__posters{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+.row__posters img{
+    padding: 10px;
+    width: 20%;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in ;
+}
+.row__posters::-webkit-scrollbar{
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.09);
+}
+.banner_button{
+    bottom:0;
+    margin-left: 30px;
+}
+
+.banner__title{
+    padding-top: 140px;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+.banner_overview{
+    color:white;
+    font-size: small;
+    margin-left: 30px;
+    width: 45rem;
+    padding: 1vw;
+    text-align: justify;
+    max-width: 320px;
+    
+}
+.banner_button_1{
+    background: rgba(51, 51, 51, 0.7);
+    width:150px;
+    padding: 10px;
+    padding-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.banner_button_2{
+    background: rgba(51, 51, 51, 0.7);
+    width:150px;
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.banner_button_2:hover{
+    transform: scale(1.05);
+}
+.banner_button_1:hover{
+    transform: scale(1.05);
+}
+.overlay{
+background-color:rgba(0, 0, 0, 0.4);
+
+height: 100%;
+}
+@media screen and (max-width:566px) {
+    .row__posters img{
+        padding: 10px;
+        width: 40%;
+        border-radius: 20px;
+        transition: transform 0.3s ease-in ;
+    }
+    .banner_button_1{
+        background: rgba(51, 51, 51, 0.7);
+        width:80px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        color: white;
+        transition: transform 0.5s ease-in-out;
+    }
+    .banner_button_2{
+        background: rgba(51, 51, 51, 0.7);
+        width:80px;
+        padding: 10px;
+        margin-left: 5px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        color: white;
+        transition: transform 0.5s ease-in-out;
+    }
+}
