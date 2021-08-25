@@ -2,7 +2,7 @@ import Row from './Row';
 import './App.css';
 import Banner from './Banner';
 import Navbar from './Navbar';
-const netfliximg="https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg";
+
 function App() {
   return (
     <div className="App">
